@@ -1,4 +1,15 @@
+/* @font-face {
+    font-family: 'MyFont';
+    src:  url('./chick.ttf') format ('ttf');
+    font-weight: 600;
+    font-style: normal;
+  } */
+
+  @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
+
 .hello {
     color: red;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'MyFont'; */
     background: url('./icon-square-big.svg');
   }
